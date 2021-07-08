@@ -17,7 +17,12 @@ const AddCategory = ({ setCategories }) => {
 
 	return (
 		<form onSubmit={handleSubmit}>
-			<input type="text" value={inputValue} onChange={handleInputValue} />
+			<input
+				type="text"
+				value={inputValue}
+				placeholder="press enter once you type"
+				onChange={handleInputValue}
+			/>
 		</form>
 	);
 };

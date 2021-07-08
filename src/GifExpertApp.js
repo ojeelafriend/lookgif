@@ -9,7 +9,7 @@ const GifExpertApp = () => {
 	return (
 		<>
 			<div className="search-box">
-				<h2>Lookgif</h2>
+				<h2>Search</h2>
 				<AddCategory setCategories={setCategories} />
 			</div>
 			{categories.map((category) => (
