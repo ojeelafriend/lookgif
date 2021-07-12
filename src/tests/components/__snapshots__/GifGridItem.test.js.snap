@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GifGridItem/> success render Snapshot the initial component 1`] = `
+<li
+  className="animate__animated animate__bounces animate__bounceInDown"
+>
+  <img
+    alt="dancers choreo GIF by Justin"
+    src="https://media0.giphy.com/media/3o7aTqfmFq4WwrKl7W/giphy.gif?cid=2f7fc425myem6fm8b4k2mru76gfrci0992zl5tpjsl6hsjfk&rid=giphy.gif&ct=g"
+  />
+  <div>
+    <h3>
+      dancers choreo GIF by Justin
+    </h3>
+  </div>
+</li>
+`;
