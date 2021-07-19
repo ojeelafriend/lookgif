@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GifGridItem/> success render Snapshot the initial component 1`] = `
+exports[`Test <GifGridItem/> Snapshot the initial component 1`] = `
 <li
   className="animate__animated animate__bounces animate__bounceInDown"
 >

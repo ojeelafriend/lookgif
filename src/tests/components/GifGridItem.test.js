@@ -2,7 +2,7 @@ import { shallow } from 'enzyme';
 
 import GifGridItem from '../../components/GifGridItem';
 
-describe('<GifGridItem/> success render', () => {
+describe('Test <GifGridItem/>', () => {
 	const image = {
 		id: '3o7aTqfmFq4WwrKl7W',
 		title: 'dancers choreo GIF by Justin',
