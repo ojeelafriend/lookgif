@@ -1,14 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test <AddCategory/> Success render <AddCategory/> 1`] = `
-<form
-  onSubmit={[Function]}
->
-  <input
-    onChange={[Function]}
-    placeholder="press enter once you type"
-    type="text"
-    value=""
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="press enter once you type"
+      type="text"
+      value=""
+    />
+  </form>
+  <p
+    hidden={true}
   />
-</form>
+</Fragment>
 `;

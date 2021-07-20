@@ -10,20 +10,26 @@ const AddCategory = ({ setCategories }) => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		setCategories((category) => {
-			return [inputValue, ...category];
-		});
+		if (inputValue.trim().length > 2) {
+			setCategories((category) => {
+				return [inputValue, ...category];
+			});
+			setInputValue('');
+		}
 	};
 
 	return (
-		<form onSubmit={handleSubmit}>
-			<input
-				type="text"
-				value={inputValue}
-				placeholder="press enter once you type"
-				onChange={handleInputValue}
-			/>
-		</form>
+		<>
+			<form onSubmit={handleSubmit}>
+				<input
+					type="text"
+					value={inputValue}
+					placeholder="press enter once you type"
+					onChange={handleInputValue}
+				/>
+			</form>
+			<p hidden={true}>{inputValue}</p>
+		</>
 	);
 };
 
